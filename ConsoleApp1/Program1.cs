@@ -5,16 +5,12 @@ using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 
 
-
-
-
 namespace ConsoleApp1
 {
     class Program1
     {
         static void Main()
         {
-
             bool isGoing = true;
 
             while (isGoing)
@@ -30,10 +26,6 @@ namespace ConsoleApp1
 
             System.Console.WriteLine("Thanks for visiting. Press any key to exit.");
             Console.ReadKey();
-
-
-
-
         }
 
         static void GetUserInputs(out int x, out int y)
@@ -58,15 +50,11 @@ namespace ConsoleApp1
 
         static void CheckOddEvenNumbers(int left, int right)
         {
-
             int evenNumberCount;
             int oddNumberCount;
 
             if ((left % 2 != 0 && right % 2 != 0) || (left % 2 == 0 && right % 2 == 0))
             {
-
-
-
                 if (left % 2 == 0)
                 {
                     evenNumberCount = (right - left + 1) / 2 + 1;
